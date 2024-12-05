@@ -264,8 +264,8 @@ def search_web(query):
         return ["Unable to fetch search results."]
 
 def generate_ai_response(prompt):
-    """Use OpenAI API to generate responses based on prompt."""
-    # openai.api_key = ""
+    
+    
     try:
         response = openai.ChatCompletion.create(
             model="gpt-3.5-turbo",
