@@ -265,7 +265,7 @@ def search_web(query):
 
 def generate_ai_response(prompt):
     """Use OpenAI API to generate responses based on prompt."""
-    openai.api_key = ""
+    # openai.api_key = ""
     try:
         response = openai.ChatCompletion.create(
             model="gpt-3.5-turbo",
